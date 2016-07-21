@@ -1,0 +1,16 @@
+Nume: Tanase Alexandru
+Grupa: 323CC
+
+Task 1:
+Acest mod l-am implementat intr-o singura functie pe care o apelez in functia main.
+Daca e primul mesaj primit, trimit un mesaj cu cuvantul "Hello".
+Daca e al 4 mesaj primit, trimit 2 mesaje diferite. Primul cu cuvantul "YEY", iar al doilea cu "OK".
+Astept inca un mesaj in care mi se explica jocul.Prima data ii trimit numarul 500 si astept mesajul clientului daca 500 e mai mic sau mai mare.
+Folosesc 2 variabile pentru a exprima intervalul in care sa caut numarul clientului.
+De fiecare data updatez aceste variabile in functie de raspunsul clientului.
+In schimb daca primesc succes astept inca un mesaj, trimit cuvantul exit si ies.
+
+Task 2:
+Am procedat la fel ca si la taskul 1, numai ca dupa fiecare mesaj primit trimiteam ack, si dupa fiecare mesaj trimis care nu era ack asteptam ack.
+Observatie: Dupa ghicirea numarului cand clientul cere sa-i trimit cuvantul exit, daca ii trimit intai ack pentru mesaj apoi ii trimit exit, clientul imi va spune ca nu a primit cuvantul exit.
+Astfel ca am ales sa nu ii mai trimit ack dupa ultimul mesaj.
